@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
-import './charDetails.css';
-export default class CharDetails extends Component {
+import './PersonalDetails.css';
+
+export default class PersonalDetails extends Component {
 
     render() {
         return (
