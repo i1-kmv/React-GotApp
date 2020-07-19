@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "d93baf1481dfca976dd0",
-    "url": "/i1-kmv/React-GotApp/static/css/main.a454bdc2.chunk.css"
+    "revision": "a51eb9e6d1c65310b600",
+    "url": "/i1-kmv/React-GotApp/static/css/main.40a49cc0.chunk.css"
   },
   {
-    "revision": "d93baf1481dfca976dd0",
-    "url": "/i1-kmv/React-GotApp/static/js/main.d93baf14.chunk.js"
+    "revision": "a51eb9e6d1c65310b600",
+    "url": "/i1-kmv/React-GotApp/static/js/main.a51eb9e6.chunk.js"
   },
   {
-    "revision": "35c9bdb942cdf144e3b7",
-    "url": "/i1-kmv/React-GotApp/static/css/1.123263f5.chunk.css"
+    "revision": "31f3256cb64c59c6d31e",
+    "url": "/i1-kmv/React-GotApp/static/css/1.5aeedc0f.chunk.css"
   },
   {
-    "revision": "35c9bdb942cdf144e3b7",
-    "url": "/i1-kmv/React-GotApp/static/js/1.35c9bdb9.chunk.js"
+    "revision": "31f3256cb64c59c6d31e",
+    "url": "/i1-kmv/React-GotApp/static/js/1.31f3256c.chunk.js"
   },
   {
     "revision": "4c1c034af4e6f7a8e721",
@@ -28,7 +28,7 @@ self.__precacheManifest = [
     "url": "/i1-kmv/React-GotApp/static/media/got.4da81083.jpeg"
   },
   {
-    "revision": "e7fa3e201f49e19a7e54767580447eb9",
+    "revision": "a64ed1a0d513de950972c24151aa06a1",
     "url": "/i1-kmv/React-GotApp/index.html"
   }
 ];
