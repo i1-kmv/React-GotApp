@@ -13,33 +13,33 @@ export default class GotService {
         return await res.json();
     }
 
-     getAllBooks = async() => {
+    getAllBooks = async () => {
         const res = await this.getResource(`/books/`);
         return res.map(this._transformBook);
     }
     
-     getBook = async(id) => {
+    getBook = async (id) => {
         const book = await this.getResource(`/books/${id}/`);
         return this._transformBook(book);
     }
     
-    getAllCharacters = async() => {
+    getAllCharacters = async () => {
         const res = await this.getResource(`/characters?page=5&pageSize=10`);
         return res.map(this._transformCharacter);
     }
     
-     getCharacter = async(id) => {
+    getCharacter = async (id) => {
         const character = await this.getResource(`/characters/${id}`);
         return this._transformCharacter(character);
     }
     
-    getAllHouses = async() => {
+    getAllHouses = async () => {
         const res = await this.getResource(`/houses/`);
         return res.map(this._transformHouse);
     }
     
-     getHouse = async(id) => {
-        const house = this.getResource(`/houses/${id}/`);
+    getHouse = async (id) => {
+        const house = await this.getResource(`/houses/${id}/`);
         return this._transformHouse(house);
     }
 
@@ -49,8 +49,8 @@ export default class GotService {
         } else {
             return 'no data :('
         }
-    }    
-    
+    }
+
     _extractId = (item) => {
         const idRegExp = /\/([0-9]*)$/;
         return item.url.match(idRegExp)[1];
